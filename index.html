@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>바이브 코딩 길잡이</title>
+<meta name="description" content="경영지도사를 위한 8단계 바이브 코딩 자기주도 실습. Claude와 Claude Code로 웹페이지를 만들고 배포합니다.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='13' fill='none' stroke='%23B4302A' stroke-width='3'/%3E%3Ctext x='16' y='21' font-size='14' text-anchor='middle' fill='%23B4302A' font-family='serif' font-weight='700'%3E%EC%99%84%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans+KR:wght@400;500;600&family=Noto+Serif+KR:wght@600;700&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <div class="top-in">
+    <a class="brand" href="#home">바이브 코딩 길잡이<small>실습 8단계</small></a>
+    <div class="meter-wrap">
+      <div class="meter" role="progressbar" aria-label="전체 진도" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" id="meter"><i id="meter-i"></i></div>
+      <span class="meter-txt" id="meter-t">0/8 단계</span>
+    </div>
+    <button class="menu-btn" id="menu-btn" aria-expanded="false" aria-controls="side" type="button">목차</button>
+  </div>
+</header>
+<div class="shell">
+  <nav class="side" id="side" aria-label="학습 목차"></nav>
+  <main class="main" id="main"><div class="view" id="view" tabindex="-1"></div>
+    <div class="foot">
+      <p>만든 사람 오주현 (경영지도사) · 문의 <span id="mail">happyojh@gmail.com</span> <button class="chip" type="button" data-act="copy-mail">복사</button></p>
+      <p>AI의 답변은 틀릴 수 있습니다. 법령, 세율, 한도, 기간 같은 수치는 반드시 공식 자료로 확인하세요. 진도 표시는 이 기기의 브라우저에만 저장됩니다.</p>
+    </div>
+  </main>
+</div>
+<script src="script.js" defer></script>
+</body>
+</html>
