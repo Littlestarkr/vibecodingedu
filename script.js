@@ -285,7 +285,7 @@ function viewHome(){
   if(!first)cta='<a class="btn pri" href="#progress">수료 현황 보기</a>';
   else if(started)cta='<a class="btn pri" href="#'+first.id+'">이어서 하기 · Step '+first.n+'</a><a class="btn" href="#step-0">처음부터 보기</a>';
   else cta='<a class="btn pri" href="#step-0">Step 0부터 시작</a><a class="btn" href="#prompts">프롬프트 모음 보기</a>';
-  var h='<section class="hero"><p class="kick">경영지도사를 위한 자기주도 실습</p><h1>바이브 코딩 길잡이</h1><p class="lead">코딩을 몰라도 됩니다. Claude에게 요청하고, 결과를 확인하고, 고쳐 가며 내 상담 업무에 쓰는 웹페이지를 만들어 직접 배포하는 8단계 실습입니다.</p><div class="cta">'+cta+'</div>'+
+  var h='<section class="hero"><p class="kick">경영지도사를 위한 자기주도 실습</p><h1>Happy Oh의 바이브 코딩 길잡이</h1><p class="lead">코딩을 몰라도 됩니다. Claude에게 요청하고, 결과를 확인하고, 고쳐 가며 내 상담 업무에 쓰는 웹페이지를 만들어 직접 배포하는 8단계 실습입니다.</p><div class="cta">'+cta+'</div>'+
   '<div class="facts"><div><b>8단계</b><span>Step 0~7</span></div><div><b>'+Math.floor(TOTAL_TIME/60)+'시간 '+(TOTAL_TIME%60)+'분</b><span>혼자서 따라 하는 시간</span></div><div><b>'+P.length+'개</b><span>복사해 쓰는 프롬프트</span></div></div></section>';
   h+='<section class="sec"><h2>이 과정에서 만드는 것</h2><div class="three"><div><h3>내 소개·명함 페이지</h3><p>Step 1~2. 첫 요청으로 파일 하나를 만들어 브라우저로 열고, 작게 나눠 고치는 법을 익힙니다.</p></div><div><h3>체크리스트와 계산기</h3><p>Step 3. 수출 준비도 진단, 손익분기점 계산처럼 상담에서 바로 쓰는 도구를 만들고 검수합니다.</p></div><div><h3>보고서 작성 웹</h3><p>Step 6과 실습 7. 참고자료를 넣으면 결과보고서 초안이 칸별로 채워지는 웹을 만듭니다.</p></div></div></section>';
   h+='<section class="sec"><h2>학습 순서</h2><div class="scroll"><table class="tbl"><thead><tr><th>단계</th><th>주제</th><th>도구</th><th class="num">시간</th><th>결과물</th></tr></thead><tbody>'+
